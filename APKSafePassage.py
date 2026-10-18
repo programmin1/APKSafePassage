@@ -82,7 +82,7 @@ def restore_backup(device, file_path):
 class AndroidSafeHarborApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("APKSafeHarbor - App Backup & Restore")
+        self.root.title("APKSafePassage - App Backup & Restore")
         # Set a large, natural window size
         self.root.geometry("900x800")
         self.devices = []
